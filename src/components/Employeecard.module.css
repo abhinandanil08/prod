@@ -1,0 +1,115 @@
+.card {
+  width: 320px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 16px;
+}
+
+
+.cp img {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+}
+
+
+#wow {
+  border-bottom: 2px solid #000000;
+}
+
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  margin-top: -45px;
+}
+
+.avatar img {
+  width: 90px;
+  height: 90px;
+  border-radius: 20%;
+  border: 2px solid #000000;
+  object-fit: cover;
+  background: #f3f4f6;
+}
+
+.id {
+  text-align: center;
+  font-size: 19px;
+  color: #000000;
+  margin-top: 6px;
+}
+
+.name {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #111827;
+  margin-top: 4px;
+}
+
+.email {
+  text-align: center;
+  font-size: 13px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+
+.age,
+.city,
+.country,
+.status,
+.skills,
+.hobby {
+  font-size: 14px;
+  color: #000000;
+  padding: 4px 16px;
+}
+
+.status {
+  font-weight: bold;
+  color: #000000;
+}
+
+.skills {
+  color: #000000;
+}
+
+.hobby {
+  color: #000000;
+}
+
+
+.pp,
+.fp {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.pp img,
+.fp img {
+  width: 100px;
+  height: 49px;
+  object-fit:fill;
+  border-radius: 20%;
+  
+}
+
+.card:hover {
+    background-color: #929292;
+  scale: 1.05;
+  transition: 0.3s;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.18);
+}
+
+.card:active {
+  scale: 0.95;
+  transition: 0.3s;
+}
